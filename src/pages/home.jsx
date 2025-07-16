@@ -42,7 +42,7 @@ export default function Home() {
         </div>
 
         <div className="image-side">
-          <img src="/assets/images/IMG1.jpeg" alt="Gifted Hemans" />
+          <img src="./assets/IMAGE/IMG1.jpeg" alt="Gifty Hemans" />
         </div>
       </div>
     </section>
