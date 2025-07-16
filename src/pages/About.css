@@ -1,0 +1,59 @@
+.about-section {
+  background-color: #ffffff; /* White background */
+  padding: 4rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0b2447; /* Deep navy blue text */
+}
+
+.about-container {
+  /* Background image */
+  background-image: url('/assets/images/IMG3.jpeg'); /* Adjust path to your image */
+  background-size: cover;          /* Cover entire container */
+  background-position: center;     /* Center the image */
+  background-repeat: no-repeat;    /* Don't repeat */
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f0f6ff; /* Soft blue-toned white */
+  border: 2px solid #ffd700; /* Gold border */
+  border-radius: 14px;
+  padding: 3rem;
+  box-shadow: 0 4px 15px rgba(11, 36, 71, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.about-container:hover {
+  box-shadow: 0 6px 20px rgba(11, 36, 71, 0.25);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold heading */
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+  color: #0b2447;
+}
+
+p strong {
+  color: #003366;
+}
+
+.signature {
+  font-style: italic;
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #0b2447;
+}

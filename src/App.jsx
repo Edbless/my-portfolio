@@ -1,11 +1,11 @@
 // App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
-import About from './pages/about';
-import Skills from './pages/skill';
-import Contact from './pages/contact';
-import Navbar from './components/navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
 
 export default function App() {
   return (
@@ -13,9 +13,9 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skill" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   );
