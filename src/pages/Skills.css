@@ -7,7 +7,7 @@
 
 .skills-container {
   /* Background image */
-  background-image: url('/assets/images/IMG4.jpeg'); /* Adjust path to your image */
+  background-image: url('./assets/IMAGE/IMG4.jpeg'); /* Adjust path to your image */
   background-size: cover;          /* Cover entire container */
   background-position: center;     /* Center the image */
   background-repeat: no-repeat;    /* Don't repeat */
@@ -81,4 +81,11 @@
 .survey-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(11, 36, 71, 0.25);
+}
+
+.survey-card h2 {
+  color: #0b2447;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }

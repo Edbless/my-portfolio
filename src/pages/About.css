@@ -7,7 +7,7 @@
 
 .about-container {
   /* Background image */
-  background-image: url('/assets/images/IMG3.jpeg'); /* Adjust path to your image */
+  background-image: url('./assets/IMAGE/IMG3.jpeg'); /* Adjust path to your image */
   background-size: cover;          /* Cover entire container */
   background-position: center;     /* Center the image */
   background-repeat: no-repeat;    /* Don't repeat */
