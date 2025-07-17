@@ -8,7 +8,7 @@ export default function About() {
       <div className="about-container">
         <h2>About Me</h2>
         <p>
-          My name is <strong>Gifted Hemans</strong> — a dedicated and forward-thinking Computer Science student with an unshakable passion for technology, innovation, and impact. I am driven not only by a love for writing clean and efficient code, but by the deeper desire to solve real-world problems and create meaningful digital experiences.
+          My name is <strong>Gifty Hemans</strong> — a dedicated and forward-thinking Computer Science student, a die hard Chelsea fan with an unshakable passion for technology, innovation, and impact. I am driven not only by a love for writing clean and efficient code, but by the deeper desire to solve real-world problems and create meaningful digital experiences.
         </p>
 
         <p>
