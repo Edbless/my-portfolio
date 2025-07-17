@@ -17,6 +17,15 @@
   color: gold;
 }
 
+/* Material icon toggle */
+.menu-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  color: white;
+}
+
+/* Desktop nav */
 .nav-links {
   list-style: none;
   display: flex;
@@ -34,4 +43,26 @@
   color: gold;
 }
 
+/* === Mobile Styles === */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
 
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background-color: royalblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
