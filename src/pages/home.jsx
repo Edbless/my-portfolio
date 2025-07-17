@@ -9,7 +9,7 @@ export default function Home() {
       <div className="hero-content">
         <div className="text-side">
           <h1>
-            Hi, I’m <span className="highlight">Gifted Hemans</span>
+            Hi, I’m <span className="highlight">Gifty Hemans</span>
           </h1>
           <p className="subtitle">A curious mind. A creative soul. A coder with a cause.</p>
 
